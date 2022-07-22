@@ -3,7 +3,11 @@
 	<groupId>com.ronimiguel</groupId>
 	<artifactId>banco-digital</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Banco-Digital-OO</name>
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+    </properties>
+    <name>Banco-Digital-OO</name>
 	<description>Explorando Padrões de Projetos na Prática com Java</description>
 	<dependencies>
 		<dependency>
