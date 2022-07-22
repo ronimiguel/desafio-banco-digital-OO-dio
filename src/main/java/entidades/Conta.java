@@ -5,17 +5,15 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Conta {
+public class Conta implements IConta {
     private int conta;
     private double saldo;
-    private int deposito;
-    private int saque;
 
     public void depositar(double valor) {
         this.saldo += valor;
     }
 
-    public void retirar(double valor) {
+    public void sacar(double valor) {
         this.saldo -= valor;
     }
 
