@@ -1,18 +1,15 @@
 package entidades;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class ContaCorrente extends Conta {
 
     private double chequeEspecial;
     private String tipo;
 
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
-    public String tipo() {
-        return this.tipo;
-    }
 
     public void setChequeEspecial(double chequeEspecial) {
         this.chequeEspecial = chequeEspecial;
